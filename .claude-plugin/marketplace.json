@@ -1,0 +1,15 @@
+{
+  "name": "sorenda",
+  "description": "Claude Code plugins from Sorenda.",
+  "owner": {
+    "name": "Sorenda",
+    "url": "https://sorenda.app"
+  },
+  "plugins": [
+    {
+      "name": "sorenda",
+      "source": ".",
+      "description": "Save Claude Code sessions to Sorenda with /save or automatic saving after every response."
+    }
+  ]
+}

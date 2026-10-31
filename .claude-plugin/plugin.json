@@ -1,0 +1,11 @@
+{
+  "name": "sorenda",
+  "displayName": "Sorenda",
+  "version": "0.3.0",
+  "description": "Save Claude Code sessions to Sorenda, and search and propose to your notes and team workspaces through the Sorenda MCP server.",
+  "author": {
+    "name": "Sorenda",
+    "url": "https://sorenda.app"
+  },
+  "homepage": "https://sorenda.app"
+}

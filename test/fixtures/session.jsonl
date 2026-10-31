@@ -1,0 +1,14 @@
+{"type":"user","isMeta":true,"isSidechain":false,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"user","content":"Caveat: this message was injected by the harness."}}
+{"type":"user","isSidechain":false,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"user","content":"как устроен поиск?<system-reminder>ignore me</system-reminder>"}}
+{"type":"assistant","isSidechain":false,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"assistant","model":"claude-opus-5","content":[{"type":"thinking","thinking":"secret reasoning"},{"type":"text","text":"Сейчас посмотрю."}]}}
+{"type":"assistant","isSidechain":false,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"assistant","model":"claude-opus-5","content":[{"type":"tool_use","name":"Read","input":{"file_path":"/repo/backend/search.go"}}]}}
+{"type":"user","isSidechain":false,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"user","content":[{"type":"tool_result","content":"package search"}]}}
+{"type":"assistant","isSidechain":false,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"assistant","model":"claude-opus-5","content":[{"type":"tool_use","name":"Grep","input":{"pattern":"Manticore","path":"backend"}}]}}
+{"type":"assistant","isSidechain":true,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"assistant","content":[{"type":"text","text":"subagent chatter that must not leak"}]}}
+{"type":"attachment","sessionId":"11111111-2222-3333-4444-555555555555","attachment":{"kind":"file"}}
+{"type":"assistant","isSidechain":false,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"assistant","model":"claude-opus-5","content":[{"type":"text","text":"Гибридный поиск: FTS плюс KNN."}]}}
+{"type":"user","isSidechain":false,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"user","content":"<command-message>init</command-message>\n<command-name>/init</command-name>\n<command-args>покороче</command-args>"}}
+{"type":"assistant","isSidechain":false,"cwd":"/repo","sessionId":"11111111-2222-3333-4444-555555555555","message":{"role":"assistant","model":"claude-opus-5","content":[{"type":"text","text":"Готово."}]}}
+{"type":"custom-title","customTitle":"Как устроен поиск","sessionId":"11111111-2222-3333-4444-555555555555"}
+not json at all
+{"type":"queue-operation","operation":"drain","sessionId":"11111111-2222-3333-4444-555555555555"}

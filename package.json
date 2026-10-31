@@ -1,0 +1,11 @@
+{
+  "name": "sorenda-claude-code",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Claude Code plugin that saves sessions to Sorenda",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "test:watch": "node --test --watch \"test/*.test.mjs\""
+  }
+}

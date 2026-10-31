@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sorenda": {
+      "type": "http",
+      "url": "${SORENDA_MCP_URL:-https://sorenda.app/mcp/v2}"
+    }
+  }
+}
